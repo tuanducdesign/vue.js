@@ -1,6 +1,7 @@
 <template>
   <div id="root">
     <Navication/>
+    <Banner/>
   </div>
 </template>
 
