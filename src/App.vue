@@ -26,8 +26,7 @@ export default {
   name: 'app',
   components: {
     Navication
-  }
-},
+  },
 mounted() {
       // Jquery
       let jqueryScript = document.createElement('script')
@@ -50,6 +49,7 @@ mounted() {
       mainScript.setAttribute('src','https://cdn.tuanducdesign.com/assets/js/main.min.js')
       document.head.appendChild(mainScript)
     },
+}
 </script>
 
 <style>
