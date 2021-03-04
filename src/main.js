@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VueMeta from 'vue-meta'
-Vue.use(VueMeta)
-
+import './assets/styles/app.scss'
 Vue.config.productionTip = false
 
 new Vue({
