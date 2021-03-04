@@ -26,7 +26,7 @@ import Banner from './components/Banner.vue'
 export default {
   name: 'app',
   components: {
-    Navication
+    Navication,
     Banner
   }
 }
