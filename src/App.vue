@@ -27,6 +27,7 @@ export default {
   name: 'app',
   components: {
     Navication
+    Banner
   }
 }
 </script>
