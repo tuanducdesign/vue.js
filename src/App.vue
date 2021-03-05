@@ -1,7 +1,7 @@
 <template>
     <div id="root">
         <!-- Navbar -->
-        <Navication logo_url="https://tuanducdesign.com" logo_title="Trần Tuấn Đức" logo_img="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" logo_width="50" nav_home_url="https://tuanducdesign.com" />
+        <Navication logourl="https://tuanducdesign.com" logotitle="Trần Tuấn Đức" logoimg="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" logowidth="50" navhomeurl="https://tuanducdesign.com" />
         <!-- Header -->
         <Banner banner_title="Trần Tuấn Đức" banner_img="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" banner_seo_google_width="128" banner_seo_google_height="128" />
         <!-- About -->
@@ -11,7 +11,7 @@
         <!-- Time -->
         <Time />
         <!-- Music -->
-        <Music id_embed="Pz3tm92Zpvs" />
+        <Music embed="Pz3tm92Zpvs" />
         <!-- Website -->
         <Website lienketweb1_url="https://thachpham.com/" lienketweb1_img="https://cdn.tuanducdesign.com/assets/images/thachpham.png" lienketweb1_title="Thạch Phạm" lienketweb2_url="https://myclass.vn" lienketweb2_img="https://cdn.tuanducdesign.com/assets/images/myclass.png" lienketweb2_title="My Class" lienketweb3_url="https://zendvn.com" lienketweb3_img="https://cdn.tuanducdesign.com/assets/images/zend.png" lienketweb3_title="Zend" />
         <!-- Contact -->

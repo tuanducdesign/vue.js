@@ -14,8 +14,8 @@
             <div class="row text-center">
                 <div class="col-sm-12">
                     <!-- data-embed là tên id của video -->
-                    <link rel="preload" href="https://img.youtube.com/vi/{{ id_embed }}/0.jpg" as="image" />
-                    <div class="youtube" data-embed="{{ id_embed }}">
+                    <link rel="preload" href="https://img.youtube.com/vi/{{ embed }}/0.jpg" as="image" />
+                    <div class="youtube" data-embed="{{ embed }}">
                         <div class="play-button"></div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@
     export default {
         name: 'Music',
         props: {
-            id_embed: String
+            embed: String
         }
     }
 </script>
