@@ -17,7 +17,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="https://thachpham.com/" target="_blank" rel="noreferrer" title="Thạch Phạm">
-                                <img src="./assets/images/thachpham.png" alt="Thạch Phạm" class="mmo-float img-thumbnail" loading="lazy" />
+                                <img src="./assets/media/thachpham.png" alt="Thạch Phạm" class="mmo-float img-thumbnail" loading="lazy" />
                                 <div id="lienketwb1">Thạch Phạm</div>
                             </a>
                         </div>
@@ -27,7 +27,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="https://myclass.vn" target="_blank" rel="noreferrer" title="My Class">
-                                <img src="./assets/images/myclass.png" alt="My Class" class="mmo-float img-thumbnail" loading="lazy" />
+                                <img src="./assets/media/myclass.png" alt="My Class" class="mmo-float img-thumbnail" loading="lazy" />
                                 <div id="lienketwb2">My Class</div>
                             </a>
                         </div>
@@ -37,7 +37,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="https://zendvn.com" target="_blank" rel="noreferrer" title="Zend">
-                                <img src="./assets/images/zend.png" alt="Zend" class="mmo-float img-thumbnail" loading="lazy" />
+                                <img src="./assets/media/zend.png" alt="Zend" class="mmo-float img-thumbnail" loading="lazy" />
                                 <div id="lienketwb3">Zend</div>
                             </a>
                         </div>
