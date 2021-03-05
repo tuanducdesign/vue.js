@@ -1,21 +1,21 @@
 <template>
     <div id="root">
         <!-- Navbar -->
-        <Navication />
+        <Navication></Navication>
         <!-- Header -->
-        <Banner />
+        <Banner></Banner>
         <!-- About -->
-        <About />
+        <About></About>
         <!-- Exp -->
-        <Exp />
+        <Exp></Exp>
         <!-- Time -->
-        <Time />
+        <Time></Time>
         <!-- Music -->
-        <Music />
+        <Music></Music>
         <!-- Website -->
-        <Website />
+        <Website></Website>
         <!-- Contact -->
-        <Contact />
+        <Contact></Contact>
         <div style="height:5px">
             <div style="width:25%;background:#af472d;height:100%;float:left"></div>
             <div style="width:25%;background:#c6ac27;height:100%;float:left"></div>
@@ -23,7 +23,7 @@
             <div style="width:25%;background:#8f99b6;height:100%;float:left"></div>
         </div>
         <!-- Footer -->
-        <Footer />
+        <Footer></Footer>
     </div>
 </template>
 <script>
@@ -58,29 +58,9 @@
             Website,
             Contact,
             Footer
-        },
-        mounted() {
-            // Jquery
-            let jqueryScript = document.createElement('script')
-            jqueryScript.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
-            document.head.appendChild(jqueryScript)
-            // Bootstrap bundle
-            let bundleScript = document.createElement('script')
-            bundleScript.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js')
-            document.head.appendChild(bundleScript)
-            // Popper
-            let popperScript = document.createElement('script')
-            popperScript.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js')
-            document.head.appendChild(popperScript)
-            // Bootstrap
-            let bootstrapScript = document.createElement('script')
-            bootstrapScript.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js')
-            document.head.appendChild(bootstrapScript)
-            
-        },
+        }
     }
-
 </script>
 <style>
-    @import '/css/app.min.css';
+@import '/css/app.min.css';
 </style>
