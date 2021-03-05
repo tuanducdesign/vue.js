@@ -1,5 +1,5 @@
 <template>
-    <header class="header-container" itemtype="https://schema.org/WPHeader" itemscope="itemscope" role="banner" id="header" v-webp:bg="require('assets/images/topheader.jpg')">
+    <header class="header-container" itemtype="https://schema.org/WPHeader" itemscope="itemscope" role="banner" id="header">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
