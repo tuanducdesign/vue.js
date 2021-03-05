@@ -1,9 +1,9 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top" role="navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope">
         <div class="container">
-            <link rel="preload" href="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" as="image" />
+            <link rel="preload" href="/assets/images/tuanducdesign.jpg" as="image" />
             <a href="/" title="Trần Tuấn Đức" id="logo">
-                <img class="site-logo" src="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" alt="Trần Tuấn Đức" width="50" loading="lazy" />
+                <img class="site-logo" v-webp="/assets/images/tuanducdesign.jpg" alt="Trần Tuấn Đức" width="50" loading="lazy" />
             </a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,7 +31,6 @@
 <script>
     export default {
         name: 'Navication',
-        props: {
-        }
+        props: {}
     }
 </script>

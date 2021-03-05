@@ -30,12 +30,12 @@
     <meta property="og:site_name" content="Trần Tuấn Đức" />
     <meta property="fb:app_id" content="141347259814733" />
     <meta property="fb:admins" content="100005485267478" />
-    <meta property="og:image" content="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" />
+    <meta property="og:image" content="<%= BASE_URL %>tuanducdesign.jpg" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Trần Tuấn Đức" />
     <meta name="twitter:url" content="<%= BASE_URL %>" />
     <meta name="twitter:description" content="Website giới thiệu bản thân của Trần Tuấn Đức con đường dẫn tới thành công của một freelancer.">
-    <meta name="twitter:image" content="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" />
+    <meta name="twitter:image" content="<%= BASE_URL %>tuanducdesign.jpg" />
     <meta name="twitter:site" content="@tuanducdesign" />
     <meta name="twitter:creator" content="@tuanducdesign" />
     <meta itemprop="name" content="Trần Tuấn Đức" />
@@ -59,6 +59,8 @@
     <meta content="#34495e" name="msapplication-navbutton-color" />
     <meta content="yes" name="apple-mobile-web-app-capable" />
     <meta content="#34495e" name="apple-mobile-web-app-status-bar-style" />
+    <link rel="canonical" href="<%= BASE_URL %>" itemprop="url" />
+    <link rel="shortcut icon" href="<%= BASE_URL %>tuanducdesign.jpg" />
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
     <link rel="dns-prefetch" href="//cdn.tuanducdesign.com" />
     <link rel="dns-prefetch" href="//img.youtube.com" />
@@ -75,25 +77,35 @@
     <link rel="preconnect" href="https://yt3.ggpht.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preload" href="https://img.youtube.com/vi/Pz3tm92Zpvs/0.jpg" as="image" />
+    <link rel="preload" href="<%= BASE_URL %>tuanducdesign.jpg" as="image" />
+    <link rel="preload" href="<%= BASE_URL %>muathongminh.jpg" as="image" />
+    <link rel="preload" href="<%= BASE_URL %>traugacbep.jpg" as="image" />
+    <link rel="preload" href="<%= BASE_URL %>lachongvien.jpg" as="image" />
+    <link rel="preload" href="<%= BASE_URL %>thachpham.png" as="image" />
+    <link rel="preload" href="<%= BASE_URL %>myclass.png" as="image" />
+    <link rel="preload" href="<%= BASE_URL %>zend.png" as="image" />
+    <link rel="preload" href="<%= BASE_URL %>topheader.jpg" as="image" />
     <link rel="preload" href="https://cdn.tuanducdesign.com/assets/fonts/fa-brands-400.woff2" type="font/woff2" as="font" crossorigin />
     <link rel="preload" href="https://cdn.tuanducdesign.com/assets/fonts/fa-light-300.woff2" type="font/woff2" as="font" crossorigin />
     <link rel="preload" href="https://cdn.tuanducdesign.com/assets/fonts/fa-regular-400.woff2" type="font/woff2" as="font" crossorigin />
     <link rel="preload" href="https://cdn.tuanducdesign.com/assets/fonts/fa-solid-900.woff2" type="font/woff2" as="font" crossorigin />
+    <link rel="preload" href="https://img.youtube.com/vi/Pz3tm92Zpvs/0.jpg" as="image" />
     <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2" type="font/woff2" as="font" crossorigin />
     <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2" type="font/woff2" as="font" crossorigin />
     <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2" type="font/woff2" as="font" crossorigin />
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" as="style" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" async defer />
-    <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
-    <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js" />
-    <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" />
-    <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" />
-    <link rel="prefetch" href="https://cdn.tuanducdesign.com/assets/js/main.min.js" />
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" as="script" />
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js" as="script" />
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" as="script" />
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" as="script" />
     <link rel="preload" href="https://cdn.tuanducdesign.com/assets/js/main.min.js" as="script" />
+    <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
+    <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js" />
+    <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" />
+    <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" />
+    <link rel="prefetch" href="<%= BASE_URL %>js/main.min.js" />
 </head>
 <!-- Body -->
 <body data-spy="scroll" data-target=".navbar" data-offset="56" itemscope="itemscope" itemtype="https://schema.org/WebPage" class="main v5">
@@ -105,6 +117,6 @@
     <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js" async></script>
     <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" async></script>
     <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" async></script>
-    <script type="application/javascript" src="https://cdn.tuanducdesign.com/assets/js/main.min.js" async></script>
+    <script type="application/javascript" src="<%= BASE_URL %>js/main.min.js" async></script>
 </body>
 </html>

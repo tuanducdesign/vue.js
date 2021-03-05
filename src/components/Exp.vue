@@ -7,7 +7,7 @@
                         <h2 class="landing-block flatuiribbon flatuiribbon-content">Kinh nghiệm của Trần Tuấn Đức</h2>
                     </div>
                 </div>
-                <p class="block-desc">Mình trên hai năm kinh nghiệm về html javascript và css luôn luôn quyết định đúng đắn trước khi làm website Mình luôn luôn phải suy nghĩ xem chọn màu nào phù hợp với một website.</p>
+                <p class="block-desc">Mình trên hai năm kinh nghiệm về html javascript và css luôn luôn quyết định đúng đắn trước khi làm website Mình luôn luôn phải suy nghĩ xem chọn màu nào phù hợp với một trang website.</p>
             </div>
         </div>
         <div class="container">
@@ -24,10 +24,9 @@
                 <div class="col-md-4">
                     <div class="media">
                         <div class="media-left">
-                            <link rel="preload" href="{{ anhso1_img }}" as="image" />
-                            <a href="{{ anhso1_url }}" target="_blank" rel="nofollow noreferrer" title="{{ anhso1_title }}">
-                                <img src="{{ anhso1_img }}" alt="{{ anhso1_title }}" class="mmo-float img-thumbnail" loading="lazy" />
-                                <div id="anhso1">{{ anhso1_title }}</div>
+                            <a href="https://muathongminh.net" target="_blank" rel="noreferrer" title="Mua Thông Minh">
+                                <img v-webp="/assets/images/muathongminh.jpg" alt="Mua Thông Minh" class="mmo-float img-thumbnail" loading="lazy" />
+                                <div id="anhso1">Mua Thông Minh</div>
                             </a>
                         </div>
                     </div>
@@ -35,10 +34,9 @@
                 <div class="col-md-4">
                     <div class="media">
                         <div class="media-left">
-                            <link rel="preload" href="{{ anhso2_img }}" as="image" />
-                            <a href="{{ anhso2_url }}" target="_blank" rel="nofollow noreferrer" title="{{ anhso2_title }}">
-                                <img src="{{ anhso2_img }}" alt="{{ anhso2_title }}" class="mmo-float img-thumbnail" loading="lazy" />
-                                <div id="anhso2">{{ anhso2_title }}</div>
+                            <a href="https://traugacbep.vn" target="_blank" rel="noreferrer" title="Trâu Gác Bếp">
+                                <img v-webp="/assets/images/traugacbep.jpg" alt="Trâu Gác Bếp" class="mmo-float img-thumbnail" loading="lazy" />
+                                <div id="anhso2">Trâu Gác Bếp</div>
                             </a>
                         </div>
                     </div>
@@ -46,10 +44,9 @@
                 <div class="col-md-4">
                     <div class="media">
                         <div class="media-left">
-                            <link rel="preload" href="{{ anhso3_img }}" as="image" />
-                            <a href="{{ anhso3_url }}" target="_blank" rel="nofollow noreferrer" title="{{ anhso3_title }}">
-                                <img src="{{ anhso3_img }}" alt="{{ anhso3_title }}" class="mmo-float img-thumbnail" loading="lazy" />
-                                <div id="anhso3">{{ anhso3_title }}</div>
+                            <a href="https://lachongvien.vn" target="_blank" rel="noreferrer" title="Lạc Hồng Viên">
+                                <img v-webp="/assets/images/lachongvien.jpg" alt="Lạc Hồng Viên" class="mmo-float img-thumbnail" loading="lazy" />
+                                <div id="anhso3">Lạc Hồng Viên</div>
                             </a>
                         </div>
                     </div>
@@ -61,19 +58,6 @@
 <script>
     export default {
         name: 'Exp',
-        props: {
-            // media 1
-            anhso1_url: String,
-            anhso1_title: String,
-            anhso1_img: String,
-            // media 2
-            anhso2_url: String,
-            anhso2_title: String,
-            anhso2_img: String,
-            // media 3
-            anhso3_url: String,
-            anhso3_title: String,
-            anhso3_img: String
-        }
+        props: {}
     }
 </script>

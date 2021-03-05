@@ -1,35 +1,24 @@
 <template>
-<footer class="mmo-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
-        <div class="text-center">©<span itemprop="copyrightYear">{{ copyright }}</span> - <span itemprop="copyrightHolder" itemscope="itemscope" itemtype="https://schema.org/Organization"><a href="/" itemprop="url" title="Trần Tuấn Đức"><span itemprop="name">Trần Tuấn Đức</span>
+    <footer class="mmo-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
+        <div class="text-center">©<span itemprop="copyrightYear">2021</span> - <span itemprop="copyrightHolder" itemscope="itemscope" itemtype="https://schema.org/Organization"><a href="https://profile.tuanducdesign.com/" itemprop="url" title="Trần Tuấn Đức"><span itemprop="name">Trần Tuấn Đức</span>
                 </a>- All Rights Reserved.<br />
-                Giao diện được thiết kế bởi : <a href="{{ design_url }}" target="_blank" rel="nofollow noreferrer" title="{{ design_name }}"><span itemprop="name">{{ design_name }}</span></a>
+                Giao diện được thiết kế bởi : <a href="https://www.facebook.com/tuanduc.support" target="_blank" rel="nofollow noreferrer" title="Trần Tuấn Đức"><span itemprop="name">Trần Tuấn Đức</span></a>
             </span>
             <div class="socials" itemscope="itemscope" itemtype="https://schema.org/Organization">
-                <link itemprop="url" href="/" />
-                <a rel="nofollow noreferrer" target="_blank" href="{{ socials_twitter_url }}" data-toggle="tooltip" data-placement="top" title="{{ socials_twitter_name }}" itemprop="sameAs"> <span class="fab fa-twitter"></span>
+                <link itemprop="url" href="https://profile.tuanducdesign.com/" />
+                <a rel="nofollow noreferrer" target="_blank" href="https://twitter.com/tuanducdesign/" data-toggle="tooltip" data-placement="top" title="Twitter" itemprop="sameAs"> <span class="fab fa-twitter"></span>
                 </a>
-                <a rel="nofollow noreferrer" target="_blank" href="{{ socials_facebook_url }}" data-toggle="tooltip" data-placement="top" title="{{ socials_facebook_name }}" itemprop="sameAs"> <span class="fab fa-facebook-f"></span>
+                <a rel="nofollow noreferrer" target="_blank" href="https://www.facebook.com/tuanduc.support/" data-toggle="tooltip" data-placement="top" title="Facebook" itemprop="sameAs"> <span class="fab fa-facebook-f"></span>
                 </a>
-                <a rel="nofollow noreferrer" target="_blank" href="{{ socials_instagram_url }}" data-toggle="tooltip" data-placement="top" title="{{ socials_instagram_name }}" itemprop="sameAs"><span class="fab fa-instagram"></span>
+                <a rel="nofollow noreferrer" target="_blank" href="https://instagram.com/mi.profile.56/" data-toggle="tooltip" data-placement="top" title="Instagram" itemprop="sameAs"><span class="fab fa-instagram"></span>
                 </a>
             </div>
         </div>
     </footer>
 </template>
-<script type="application/javascript" src="https://cdn.tuanducdesign.com/assets/js/main.min.js" async></script>
 <script>
     export default {
         name: 'Footer',
-        props: {
-           copyright: String,
-           design_url: String,
-           design_name: String,
-           socials_twitter_url: String,
-           socials_twitter_name: String,
-           socials_facebook_url: String,
-           socials_facebook_name: String,
-           socials_instagram_url: String,
-           socials_instagram_name: String
-        }
+        props: {}
     }
 </script>

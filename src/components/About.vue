@@ -1,5 +1,5 @@
 <template>
-<section class="landing-container" id="vetoi">
+    <section class="landing-container" id="vetoi">
         <div class="container">
             <div class="row landing-block text-center">
                 <div class="col-sm-12">
@@ -47,9 +47,8 @@
     </section>
 </template>
 <script>
-export default {
-  name: 'About',
-  props: {
-  }
-}
+    export default {
+        name: 'About',
+        props: {}
+    }
 </script>
