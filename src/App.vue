@@ -76,10 +76,6 @@
             let bootstrapScript = document.createElement('script')
             bootstrapScript.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js')
             document.head.appendChild(bootstrapScript)
-            // Custom
-            let customScript = document.createElement('script')
-            customScript.setAttribute('src', 'https://cdn.tuanducdesign.com/assets/js/main.min.js')
-            document.head.appendChild(customScript)
             
         },
     }
