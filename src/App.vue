@@ -61,6 +61,3 @@
         }
     }
 </script>
-<style>
-@import '/css/app.min.css';
-</style>
