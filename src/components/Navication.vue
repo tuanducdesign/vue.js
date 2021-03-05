@@ -1,15 +1,15 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top" role="navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope">
         <div class="container">
-            <link rel="preload" href="{{ logoImg }}" as="image" />
+            <link rel="preload" href="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" as="image" />
             <a href="/" title="Trần Tuấn Đức" id="logo">
-                <img class="site-logo" src="{{ logoImg }}" alt="Trần Tuấn Đức" width="50" loading="lazy" />
+                <img class="site-logo" src="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" alt="Trần Tuấn Đức" width="50" loading="lazy" />
             </a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="{{ navHomeUrl }}" class="nav-link" title="Trang Chủ">Trang Chủ</a>
+                    <li class="nav-item"><a href="https://tuanducdesign.com/" class="nav-link" title="Trang Chủ">Trang Chủ</a>
                     </li>
                     <li class="nav-item"><a href="#vetoi" class="nav-link" title="Về Tôi">Về Tôi</a>
                     </li>
@@ -32,8 +32,6 @@
     export default {
         name: 'Navication',
         props: {
-            logoImg: String,
-            navHomeUrl: String
         }
     }
 </script>

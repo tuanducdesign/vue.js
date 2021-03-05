@@ -6,7 +6,7 @@
                     <div class="arrange-flatuiribbon">
                         <h2 class="landing-block flatuiribbon flatuiribbon-content">Liên Kết Website</h2>
                     </div>
-                    <p class="block-desc">Có vô vàn các trang dạy website hay nhưng mình chỉ chú tâm tới ba website hữu ích nhất đó là <strong>{{ lienketweb1_title }}</strong>,<strong>{{ lienketweb2_title }}</strong> và <strong>{{ lienketweb3_title }}</strong>.
+                    <p class="block-desc">Có vô vàn các trang dạy website hay nhưng mình chỉ chú tâm tới ba website hữu ích nhất đó là <strong>Thạch Phạm Blog</strong>,<strong>Myclass Học Lập Trình Trực Tuyến</strong> và <strong>Zend</strong>!
                     </p>
                 </div>
             </div>
@@ -16,10 +16,9 @@
                 <div class="col-md-4">
                     <div class="media">
                         <div class="media-left">
-                            <link rel="preload" href="{{ lienketweb1_img }}" as="image" />
-                            <a href="{{ lienketweb1_url }}" target="_blank" rel="nofollow noreferrer" title="{{ lienketweb1_title }}">
-                                <img src="{{ lienketweb1_img }}" alt="{{ lienketweb1_title }}" class="mmo-float img-thumbnail" loading="lazy" />
-                                <div id="lienketwb1">{{ lienketweb1_title }}</div>
+                            <a href="https://thachpham.com/" target="_blank" rel="noreferrer" title="Thạch Phạm">
+                                <img src="./assets/images/thachpham.png" alt="Thạch Phạm" class="mmo-float img-thumbnail" loading="lazy" />
+                                <div id="lienketwb1">Thạch Phạm</div>
                             </a>
                         </div>
                     </div>
@@ -27,10 +26,9 @@
                 <div class="col-md-4">
                     <div class="media">
                         <div class="media-left">
-                            <link rel="preload" href="{{ lienketweb2_img }}" as="image" />
-                            <a href="{{ lienketweb2_url }}" target="_blank" rel="nofollow noreferrer" title="{{ lienketweb2_title }}">
-                                <img src="{{ lienketweb2_img }}" alt="{{ lienketweb2_title }}" class="mmo-float img-thumbnail" loading="lazy" />
-                                <div id="lienketwb2">{{ lienketweb2_title }}</div>
+                            <a href="https://myclass.vn" target="_blank" rel="noreferrer" title="My Class">
+                                <img src="./assets/images/myclass.png" alt="My Class" class="mmo-float img-thumbnail" loading="lazy" />
+                                <div id="lienketwb2">My Class</div>
                             </a>
                         </div>
                     </div>
@@ -38,10 +36,9 @@
                 <div class="col-md-4">
                     <div class="media">
                         <div class="media-left">
-                            <link rel="preload" href="{{ lienketweb3_img }}" as="image" />
-                            <a href="{{ lienketweb3_url }}" target="_blank" rel="nofollow noreferrer" title="{{ lienketweb3_title }}">
-                                <img src="{{ lienketweb3_img }}" alt="{{ lienketweb3_title }}" class="mmo-float img-thumbnail" loading="lazy" />
-                                <div id="lienketwb3">{{ lienketweb3_title }}</div>
+                            <a href="https://zendvn.com" target="_blank" rel="noreferrer" title="Zend">
+                                <img src="./assets/images/zend.png" alt="Zend" class="mmo-float img-thumbnail" loading="lazy" />
+                                <div id="lienketwb3">Zend</div>
                             </a>
                         </div>
                     </div>
@@ -53,19 +50,7 @@
 <script>
     export default {
         name: 'Website',
-        props: {
-            // box 1
-            lienketweb1_url: String,
-            lienketweb1_img: String,
-            lienketweb1_title: String,
-            // box 2
-            lienketweb2_url: String,
-            lienketweb2_img: String,
-            lienketweb2_title: String,
-            // box 3
-            lienketweb3_url: String,
-            lienketweb3_img: String,
-            lienketweb3_title: String
-        }
+        props: {}
     }
+
 </script>

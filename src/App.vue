@@ -1,17 +1,17 @@
 <template>
     <div id="root">
         <!-- Navbar -->
-        <Navication logoImg="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" navHomeUrl="https://tuanducdesign.com" />
+        <Navication></Navication>
         <!-- Header -->
-        <Banner banner_title="Trần Tuấn Đức" banner_img="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" banner_seo_google_width="128" banner_seo_google_height="128" />
+        <Banner></Banner>
         <!-- About -->
-        <About />
+        <About></About>
         <!-- Exp -->
-        <Exp anhso1_url="https://muathongminh.net" anhso1_title="Mua Thông Minh" anhso1_img="https://cdn.tuanducdesign.com/assets/images/muathongminh.jpg" anhso2_url="https://traugacbep.vn" anhso2_title="Trâu Gác Bếp" anhso2_img="https://cdn.tuanducdesign.com/assets/images/traugacbep.jpg" anhso3_url="https://lachongvien.vn" anhso3_title="Lạc Hồng Viên" anhso3_ing="https://cdn.tuanducdesign.com/assets/images/lachongvien.jpg" />
+        <Exp></Exp>
         <!-- Time -->
-        <Time />
+        <Time></Time>
         <!-- Music -->
-        <Music Embed="Pz3tm92Zpvs" />
+        <Music id="Pz3tm92Zpvs" />
         <!-- Website -->
         <Website lienketweb1_url="https://thachpham.com/" lienketweb1_img="https://cdn.tuanducdesign.com/assets/images/thachpham.png" lienketweb1_title="Thạch Phạm" lienketweb2_url="https://myclass.vn" lienketweb2_img="https://cdn.tuanducdesign.com/assets/images/myclass.png" lienketweb2_title="My Class" lienketweb3_url="https://zendvn.com" lienketweb3_img="https://cdn.tuanducdesign.com/assets/images/zend.png" lienketweb3_title="Zend" />
         <!-- Contact -->
