@@ -5,7 +5,7 @@
                 <div class="col-sm-12 text-center">
                     <h1 itemprop="name" class="info-landing">Hi! Mình là <span>Trần Tuấn Đức</span></h1>
                     <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-                        <img class="profile mmo-float img-thumbnail" v-webp="/assets/images/tuanducdesign.jpg" alt="Trần Tuấn Đức" loading="lazy" />
+                        <img class="profile mmo-float img-thumbnail" src="/assets/images/tuanducdesign.jpg" alt="Trần Tuấn Đức" loading="lazy" />
                         <meta itemprop="url" content="/assets/images/tuanducdesign.jpg" />
                         <meta itemprop="width" content="128" />
                         <meta itemprop="height" content="128" />
@@ -20,7 +20,6 @@
 <script>
     export default {
         name: 'Banner',
-        props: {
-        }
+        props: {}
     }
 </script>
