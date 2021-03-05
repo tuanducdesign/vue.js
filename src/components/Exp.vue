@@ -25,7 +25,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="https://muathongminh.net" target="_blank" rel="noreferrer" title="Mua Thông Minh">
-                                <img src="/assets/images/muathongminh.jpg" alt="Mua Thông Minh" class="mmo-float img-thumbnail" loading="lazy" />
+                                <img src="https://cdn.tuanducdesign.com/assets/images/muathongminh.jpg" alt="Mua Thông Minh" class="mmo-float img-thumbnail" loading="lazy" />
                                 <div id="anhso1">Mua Thông Minh</div>
                             </a>
                         </div>
@@ -35,7 +35,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="https://traugacbep.vn" target="_blank" rel="noreferrer" title="Trâu Gác Bếp">
-                                <img src="/assets/images/traugacbep.jpg" alt="Trâu Gác Bếp" class="mmo-float img-thumbnail" loading="lazy" />
+                                <img src="https://cdn.tuanducdesign.com/assets/images/traugacbep.jpg" alt="Trâu Gác Bếp" class="mmo-float img-thumbnail" loading="lazy" />
                                 <div id="anhso2">Trâu Gác Bếp</div>
                             </a>
                         </div>
@@ -45,7 +45,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="https://lachongvien.vn" target="_blank" rel="noreferrer" title="Lạc Hồng Viên">
-                                <img src="/assets/images/lachongvien.jpg" alt="Lạc Hồng Viên" class="mmo-float img-thumbnail" loading="lazy" />
+                                <img src="https://cdn.tuanducdesign.com/assets/images/lachongvien.jpg" alt="Lạc Hồng Viên" class="mmo-float img-thumbnail" loading="lazy" />
                                 <div id="anhso3">Lạc Hồng Viên</div>
                             </a>
                         </div>
