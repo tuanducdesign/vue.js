@@ -15,6 +15,7 @@
             </div>
         </div>
     </footer>
+<script type="application/javascript" src="https://cdn.tuanducdesign.com/assets/js/main.min.js" async></script>
 </template>
 <script>
     export default {
